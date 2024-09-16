@@ -1,0 +1,1292 @@
+<omx xmlns="system" migration="29" xmlns:ct="automation.control">
+	<ct:object name="IO_E21_Water_PK01_HX_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-01, на сливе с т/о, т.2). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Water_PK01_HX_3_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-01, на сливе с т/о, т.3). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Water_PK01_HX_4_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-01, на сливе с т/о, т.4). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Water_PK01_HX_5_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-01, на сливе с т/о, т.5). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Water_PK01_HX_6_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-01, на сливе с т/о, т.6). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Water_PK01_HX_7_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-01, на сливе с т/о, т.7). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Water_PK01_HX_1_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-01, на сливе с т/о, т.1). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Water_PK02_HX_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-02, на сливе с т/о, т.2). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Water_PK02_HX_3_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-02, на сливе с т/о, т.3). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Water_PK02_HX_4_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-02, на сливе с т/о, т.4). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Water_PK02_HX_5_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-02, на сливе с т/о, т.5). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Water_PK02_HX_6_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-02, на сливе с т/о, т.6). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Water_PK02_HX_7_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-02, на сливе с т/о, т.7). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Water_PK02_HX_1_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-02, на сливе с т/о, т.1). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Water_PK03_HX_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-03, на сливе с т/о, т.2). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Water_PK03_HX_3_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-03, на сливе с т/о, т.3). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Water_PK03_HX_4_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-03, на сливе с т/о, т.4). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Water_PK03_HX_5_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-03, на сливе с т/о, т.5). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Water_PK03_HX_6_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-03, на сливе с т/о, т.6). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Water_PK03_HX_7_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-03, на сливе с т/о, т.7). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Water_PK03_HX_1_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-03, на сливе с т/о, т.1). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Water_PK24_HX_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-24, на сливе с т/о, т.2). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Water_PK24_HX_3_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-24, на сливе с т/о, т.3). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Water_PK24_HX_4_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-24, на сливе с т/о, т.4). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Water_PK24_HX_5_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-24, на сливе с т/о, т.5). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Water_PK24_HX_1_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-24, на сливе с т/о, т.1). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Water_PK25_HX_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-25, на сливе с т/о, т.2). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Water_PK25_HX_3_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-25, на сливе с т/о, т.3). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Water_PK25_HX_4_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-25, на сливе с т/о, т.4). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Water_PK25_HX_5_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-25, на сливе с т/о, т.5). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Water_PK25_HX_1_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-25, на сливе с т/о, т.1). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Water_PK26_HX_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-26, на сливе с т/о, т.2). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Water_PK26_HX_3_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-26, на сливе с т/о, т.3). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Water_PK26_HX_4_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-26, на сливе с т/о, т.4). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Water_PK26_HX_5_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-26, на сливе с т/о, т.5). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Water_PK26_HX_1_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Вода (ПК-26, на сливе с т/о, т.1). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK04_HX_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-04, на сливе с т/о, т.2). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK04_HX_3_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-04, на сливе с т/о, т.3). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK04_HX_4_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-04, на сливе с т/о, т.4). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK04_HX_5_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-04, на сливе с т/о, т.5). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK04_HX_1_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-04, на сливе с т/о, т.1). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK05_HX_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-05, на сливе с т/о, т.2). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK05_HX_3_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-05, на сливе с т/о, т.3). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK05_HX_4_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-05, на сливе с т/о, т.4). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK05_HX_5_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-05, на сливе с т/о, т.5). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK05_HX_1_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-05, на сливе с т/о, т.1). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK06_HX_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-06, на сливе с т/о, т.2). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK06_HX_3_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-06, на сливе с т/о, т.3). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK06_HX_4_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-06, на сливе с т/о, т.4). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK06_HX_5_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-06, на сливе с т/о, т.5). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK06_HX_1_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-06, на сливе с т/о, т.1). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK07_HX_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-07, на сливе с т/о, т.2). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK07_HX_3_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-07, на сливе с т/о, т.3). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK07_HX_4_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-07, на сливе с т/о, т.4). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK07_HX_5_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-07, на сливе с т/о, т.5). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK07_HX_1_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-07, на сливе с т/о, т.1). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK20_HX_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-20, на сливе с т/о, т.2). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK20_HX_3_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-20, на сливе с т/о, т.3). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK20_HX_4_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-20, на сливе с т/о, т.4). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK20_HX_5_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-20, на сливе с т/о, т.5). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK20_HX_1_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-20, на сливе с т/о, т.1). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK21_HX_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-21, на сливе с т/о, т.2). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK21_HX_3_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-21, на сливе с т/о, т.3). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK21_HX_4_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-21, на сливе с т/о, т.4). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK21_HX_5_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-21, на сливе с т/о, т.5). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK21_HX_1_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-21, на сливе с т/о, т.1). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK22_HX_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-22, на сливе с т/о, т.2). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK22_HX_3_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-22, на сливе с т/о, т.3). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK22_HX_4_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-22, на сливе с т/о, т.4). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK22_HX_5_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-22, на сливе с т/о, т.5). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK22_HX_1_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-22, на сливе с т/о, т.1). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK23_HX_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-23, на сливе с т/о, т.2). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK23_HX_3_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-23, на сливе с т/о, т.3). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK23_HX_4_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-23, на сливе с т/о, т.4). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK23_HX_5_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-23, на сливе с т/о, т.5). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Water_PK23_HX_1_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Вода (ПК-23, на сливе с т/о, т.1). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK14_HX_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-14, на сливе с т/о, т.2). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK14_HX_3_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-14, на сливе с т/о, т.3). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK14_HX_4_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-14, на сливе с т/о, т.4). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK14_HX_5_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-14, на сливе с т/о, т.5). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK14_HX_1_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-14, на сливе с т/о, т.1). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK13_HX_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-13, на сливе с т/о, т.2). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK13_HX_3_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-13, на сливе с т/о, т.3). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK13_HX_4_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-13, на сливе с т/о, т.4). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK13_HX_5_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-13, на сливе с т/о, т.5). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK13_HX_1_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-13, на сливе с т/о, т.1). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK12_HX_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-12, на сливе с т/о, т.2). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK12_HX_3_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-12, на сливе с т/о, т.3). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK12_HX_4_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-12, на сливе с т/о, т.4). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK12_HX_5_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-12, на сливе с т/о, т.5). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK12_HX_1_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-12, на сливе с т/о, т.1). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK11_HX_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-11, на сливе с т/о, т.2). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK11_HX_3_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-11, на сливе с т/о, т.3). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK11_HX_4_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-11, на сливе с т/о, т.4). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK11_HX_5_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-11, на сливе с т/о, т.5). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK11_HX_1_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-11, на сливе с т/о, т.1). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK10_HX_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-10, на сливе с т/о, т.2). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK10_HX_3_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-10, на сливе с т/о, т.3). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK10_HX_4_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-10, на сливе с т/о, т.4). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK10_HX_5_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-10, на сливе с т/о, т.5). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK10_HX_1_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-10, на сливе с т/о, т.1). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK09_HX_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-09, на сливе с т/о, т.2). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK09_HX_3_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-09, на сливе с т/о, т.3). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK09_HX_4_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-09, на сливе с т/о, т.4). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK09_HX_5_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-09, на сливе с т/о, т.5). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK09_HX_1_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-09, на сливе с т/о, т.1). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK15_HX_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-15, на сливе с т/о, т.2). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK15_HX_3_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-15, на сливе с т/о, т.3). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK15_HX_4_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-15, на сливе с т/о, т.4). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK15_HX_5_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-15, на сливе с т/о, т.5). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK15_HX_1_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-15, на сливе с т/о, т.1). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK16_HX_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-16, на сливе с т/о, т.2). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK16_HX_3_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-16, на сливе с т/о, т.3). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK16_HX_4_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-16, на сливе с т/о, т.4). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK16_HX_5_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-16, на сливе с т/о, т.5). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK16_HX_1_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-16, на сливе с т/о, т.1). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK17_HX_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-17, на сливе с т/о, т.2). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK17_HX_3_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-17, на сливе с т/о, т.3). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK17_HX_4_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-17, на сливе с т/о, т.4). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK17_HX_5_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-17, на сливе с т/о, т.5). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK17_HX_1_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-17, на сливе с т/о, т.1). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK18_HX_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-18, на сливе с т/о, т.2). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK18_HX_3_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-18, на сливе с т/о, т.3). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK18_HX_4_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-18, на сливе с т/о, т.4). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK18_HX_5_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-18, на сливе с т/о, т.5). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK18_HX_1_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-18, на сливе с т/о, т.1). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK19_HX_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-19, на сливе с т/о, т.2). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK19_HX_3_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-19, на сливе с т/о, т.3). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK19_HX_4_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-19, на сливе с т/о, т.4). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK19_HX_5_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-19, на сливе с т/о, т.5). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK19_HX_1_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-19, на сливе с т/о, т.1). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK08_HX_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-08, на сливе с т/о, т.2). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK08_HX_3_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-08, на сливе с т/о, т.3). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK08_HX_4_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-08, на сливе с т/о, т.4). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK08_HX_5_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-08, на сливе с т/о, т.5). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Water_PK08_HX_1_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Вода (ПК-08, на сливе с т/о, т.1). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Heat_SGP2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Теплоноситель (на СГП-2). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Air_PK01_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Воздух (ПК-01, на выходе). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Air_PK02_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Воздух (ПК-02, на выходе). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Air_PK03_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Воздух (ПК-03, на выходе). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Air_PK24_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Воздух (ПК-24, на выходе). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Air_PK25_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Воздух (ПК-25, на выходе). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_Air_PK26_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. Воздух (ПК-26, на выходе). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Air_PK04_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Воздух (ПК-04, на выходе). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Air_PK05_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Воздух (ПК-05, на выходе). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Air_PK06_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Воздух (ПК-06, на выходе). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Air_PK07_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Воздух (ПК-07, на выходе). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Air_PK20_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Воздух (ПК-20, на выходе). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Air_PK21_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Воздух (ПК-21, на выходе). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Air_PK22_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Воздух (ПК-22, на выходе). Температура" />
+	</ct:object>
+	<ct:object name="IO_E22_Air_PK23_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. Воздух (ПК-23, на выходе). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Air_PK14_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Воздух (ПК-14, на выходе). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Air_PK13_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Воздух (ПК-13, на выходе). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Air_PK12_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Воздух (ПК-12, на выходе). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Air_PK11_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Воздух (ПК-11, на выходе). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Air_PK10_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Воздух (ПК-10, на выходе). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Air_PK09_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Воздух (ПК-09, на выходе). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Air_PK15_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Воздух (ПК-15, на выходе). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Air_PK16_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Воздух (ПК-16, на выходе). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Air_PK17_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Воздух (ПК-17, на выходе). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Air_PK18_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Воздух (ПК-18, на выходе). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Air_PK19_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Воздух (ПК-19, на выходе). Температура" />
+	</ct:object>
+	<ct:object name="IO_E3_Air_PK08_2_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. Воздух (ПК-08, на выходе). Температура" />
+	</ct:object>
+	<ct:object name="IO_E21_PK1_ER" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ-2-1. Вентустановка ПК-1. Состояние" />
+	</ct:object>
+	<ct:object name="IO_E21_PK2_ER" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ-2-1. Вентустановка ПК-2. Состояние" />
+	</ct:object>
+	<ct:object name="IO_E21_PK3_ER" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ-2-1. Вентустановка ПК-3. Состояние" />
+	</ct:object>
+	<ct:object name="IO_E21_PK29_ER" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ-2-1. Вентустановка ПК-29. Состояние" />
+	</ct:object>
+	<ct:object name="IO_E21_PK24_ER" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ-2-1. Вентустановка ПК-24. Состояние" />
+	</ct:object>
+	<ct:object name="IO_E21_PK25_ER" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ-2-1. Вентустановка ПК-25. Состояние" />
+	</ct:object>
+	<ct:object name="IO_E21_PK26_ER" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ-2-1. Вентустановка ПК-26. Состояние" />
+	</ct:object>
+	<ct:object name="IO_E22_PK4_ER" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ-2-2. Вентустановка ПК-4. Состояние" />
+	</ct:object>
+	<ct:object name="IO_E22_PK5_ER" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ-2-2. Вентустановка ПК-5. Состояние" />
+	</ct:object>
+	<ct:object name="IO_E22_PK6_ER" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ-2-2. Вентустановка ПК-6. Состояние" />
+	</ct:object>
+	<ct:object name="IO_E22_PK7_ER" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ-2-2. Вентустановка ПК-7. Состояние" />
+	</ct:object>
+	<ct:object name="IO_E22_PK8_ER" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ-2-2. Вентустановка ПК-8. Состояние" />
+	</ct:object>
+	<ct:object name="IO_E22_PK20_ER" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ-2-2. Вентустановка ПК-20. Состояние" />
+	</ct:object>
+	<ct:object name="IO_E22_PK21_ER" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ-2-2. Вентустановка ПК-21. Состояние" />
+	</ct:object>
+	<ct:object name="IO_E22_PK22_ER" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ-2-2. Вентустановка ПК-22. Состояние" />
+	</ct:object>
+	<ct:object name="IO_E3_PK23_ER" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ-2-3. Вентустановка ПК-23. Состояние" />
+	</ct:object>
+	<ct:object name="IO_E3_PK9_ER" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ-2-3. Вентустановка ПК-9. Состояние" />
+	</ct:object>
+	<ct:object name="IO_E3_PK10_ER" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ-2-3. Вентустановка ПК-10. Состояние" />
+	</ct:object>
+	<ct:object name="IO_E3_PK11_ER" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ-2-3. Вентустановка ПК-11. Состояние" />
+	</ct:object>
+	<ct:object name="IO_E3_PK12_ER" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ-2-3. Вентустановка ПК-12. Состояние" />
+	</ct:object>
+	<ct:object name="IO_E3_PK13_ER" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ-2-3. Вентустановка ПК-13. Состояние" />
+	</ct:object>
+	<ct:object name="IO_E3_PK14_ER" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ-2-3. Вентустановка ПК-14. Состояние" />
+	</ct:object>
+	<ct:object name="IO_E3_PK15_ER" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ-2-3. Вентустановка ПК-15. Состояние" />
+	</ct:object>
+	<ct:object name="IO_E3_PK16_ER" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ-2-3. Вентустановка ПК-16. Состояние" />
+	</ct:object>
+	<ct:object name="IO_E3_PK17_ER" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ-2-3. Вентустановка ПК-17. Состояние" />
+	</ct:object>
+	<ct:object name="IO_E3_PK18_ER" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ-2-3. Вентустановка ПК-18. Состояние" />
+	</ct:object>
+	<ct:object name="IO_E3_PK19_ER" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ-2-3. Вентустановка ПК-19. Состояние" />
+	</ct:object>
+	<ct:object name="IO_E3_PK27_ER" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ-2-3. Вентустановка ПК-27. Состояние" />
+	</ct:object>
+	<ct:object name="IO_E3_PK28_ER" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ-2-3. Вентустановка ПК-28. Состояние" />
+	</ct:object>
+	<ct:object name="IO_G1_E2_SAES_Alarm" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. Шкаф АСУ ПВС. Блок питания G1. Авария питания" />
+	</ct:object>
+	<ct:object name="IO_G2_E2_SAES_Alarm" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. Шкаф АСУ ПВС. Блок питания G2. Авария питания" />
+	</ct:object>
+	<ct:object name="IO_G3_E2_SAES_Alarm" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. Шкаф АСУ ПВС. Блок питания G3 (Поле). Авария питания" />
+	</ct:object>
+	<ct:object name="IO_G4_E2_SAES_Alarm" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. Шкаф АСУ ПВС. Блок питания G4 (Поле). Авария питания" />
+	</ct:object>
+	<ct:object name="IO_KS1_E2_SAES_Open" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. Шкаф АСУ ПВС. Дверь шкафа открыта" />
+	</ct:object>
+	<ct:object name="IO_UPS_E2_SAES_Enet" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. Шкаф АСУ ПВС. ИБП. Состояние (работа от сети)" />
+	</ct:object>
+	<ct:object name="IO_InPower_E2_SAES_Ok" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. Шкаф АСУ ПВС. Наличие питания на вводе (до ИБП)" />
+	</ct:object>
+	<ct:object name="IO_KS1_E2_UPS_Open" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. Шкаф АСУ ПВС. Дверь шкафа ИБП E2_UPS открыта" />
+	</ct:object>
+	<ct:object name="IO_E21_PK01_BL_MR" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. ПК-01 (защита). Управление (включить)" />
+	</ct:object>
+	<ct:object name="IO_E21_PK02_BL_MR" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. ПК-02 (защита). Управление (включить)" />
+	</ct:object>
+	<ct:object name="IO_E21_PK03_BL_MR" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. ПК-03 (защита). Управление (включить)" />
+	</ct:object>
+	<ct:object name="IO_E21_PK24_BL_MR" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. ПК-24 (защита). Управление (включить)" />
+	</ct:object>
+	<ct:object name="IO_E21_PK25_BL_MR" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. ПК-25 (защита). Управление (включить)" />
+	</ct:object>
+	<ct:object name="IO_E21_PK26_BL_MR" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-1. ПК-26 (защита). Управление (включить)" />
+	</ct:object>
+	<ct:object name="IO_E22_PK04_BL_MR" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. ПК-04 (защита). Управление (включить)" />
+	</ct:object>
+	<ct:object name="IO_E22_PK05_BL_MR" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. ПК-05 (защита). Управление (включить)" />
+	</ct:object>
+	<ct:object name="IO_E22_PK06_BL_MR" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. ПК-06 (защита). Управление (включить)" />
+	</ct:object>
+	<ct:object name="IO_E22_PK07_BL_MR" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. ПК-07 (защита). Управление (включить)" />
+	</ct:object>
+	<ct:object name="IO_E22_PK20_BL_MR" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. ПК-20 (защита). Управление (включить)" />
+	</ct:object>
+	<ct:object name="IO_E22_PK21_BL_MR" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. ПК-21 (защита). Управление (включить)" />
+	</ct:object>
+	<ct:object name="IO_E22_PK22_BL_MR" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. ПК-22 (защита). Управление (включить)" />
+	</ct:object>
+	<ct:object name="IO_E22_PK23_BL_MR" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2-2. ПК-23 (защита). Управление (включить)" />
+	</ct:object>
+	<ct:object name="IO_E3_PK14_BL_MR" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. ПК-14 (защита). Управление (включить)" />
+	</ct:object>
+	<ct:object name="IO_E3_PK13_BL_MR" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. ПК-13 (защита). Управление (включить)" />
+	</ct:object>
+	<ct:object name="IO_E3_PK12_BL_MR" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. ПК-12 (защита). Управление (включить)" />
+	</ct:object>
+	<ct:object name="IO_E3_PK11_BL_MR" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. ПК-11 (защита). Управление (включить)" />
+	</ct:object>
+	<ct:object name="IO_E3_PK10_BL_MR" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. ПК-10 (защита). Управление (включить)" />
+	</ct:object>
+	<ct:object name="IO_E3_PK09_BL_MR" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. ПК-09 (защита). Управление (включить)" />
+	</ct:object>
+	<ct:object name="IO_E3_PK15_BL_MR" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. ПК-15 (защита). Управление (включить)" />
+	</ct:object>
+	<ct:object name="IO_E3_PK16_BL_MR" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. ПК-16 (защита). Управление (включить)" />
+	</ct:object>
+	<ct:object name="IO_E3_PK17_BL_MR" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. ПК-17 (защита). Управление (включить)" />
+	</ct:object>
+	<ct:object name="IO_E3_PK18_BL_MR" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. ПК-18 (защита). Управление (включить)" />
+	</ct:object>
+	<ct:object name="IO_E3_PK19_BL_MR" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. ПК-19 (защита). Управление (включить)" />
+	</ct:object>
+	<ct:object name="IO_E3_PK08_BL_MR" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 3. ПК-08 (защита). Управление (включить)" />
+	</ct:object>
+	<ct:object name="IO_E2_RC01_L" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2. Ресивер 1. Уровень" />
+	</ct:object>
+	<ct:object name="IO_E2_RC02_L" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2. Ресивер 2. Уровень" />
+	</ct:object>
+	<ct:object name="IO_E2_RC03_L" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2. Ресивер 3. Уровень" />
+	</ct:object>
+	<ct:object name="IO_E2_RC04_L" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2. Ресивер 4. Уровень" />
+	</ct:object>
+	<ct:object name="IO_E2_TN_H2SO4_1_L" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2. Сборники H2SO4 приемные. Сб. 1" />
+	</ct:object>
+	<ct:object name="IO_E2_TN_H2SO4_2_L" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2. Сборники H2SO4 приемные. Сб. 2" />
+	</ct:object>
+	<ct:object name="IO_E2_TN_H2SO4_3_L" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2. Сборники H2SO4 раздачи. Сб. 1" />
+	</ct:object>
+	<ct:object name="IO_E2_TN_H2SO4_4_L" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2. Сборники H2SO4 раздачи. Сб. 2" />
+	</ct:object>
+	<ct:object name="IO_E2_TN_G_W_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2. Сборник приготовления клея (водяная рубашка). Температура" />
+	</ct:object>
+	<ct:object name="IO_E2_TN_T_W_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2. Сборник приготовления тиомочевины (водяная рубашка). Температура" />
+	</ct:object>
+	<ct:object name="IO_E2_TN_G_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2. Сборник приготовления клея (внутри). Температура" />
+	</ct:object>
+	<ct:object name="IO_E2_TN_T_T" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2. Сборник приготовления тиомочевины (внутри). Температура" />
+	</ct:object>
+	<ct:object name="IO_E2_TN_T_L2" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2. Сборник приготовления тиомочевины. Уровень" />
+	</ct:object>
+	<ct:object name="IO_E2_TN_G_L2" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2. Сборник приготовления клея. Уровень" />
+	</ct:object>
+	<ct:object name="IO_E2_TN_G_S_L2" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2. Сборник хранения клея. Уровень" />
+	</ct:object>
+	<ct:object name="IO_E2_TN_T_S_L2" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2. Сборник хранения тиомочевины. Уровень" />
+	</ct:object>
+	<ct:object name="IO_E2_TN_T_L" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2. Сборник приготовления тиомочевины. Уровень" />
+	</ct:object>
+	<ct:object name="IO_E2_TN_G_L" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2. Сборник приготовления клея. Уровень" />
+	</ct:object>
+	<ct:object name="IO_E2_TN_G_S_L" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2. Сборник хранения клея. Уровень" />
+	</ct:object>
+	<ct:object name="IO_E2_TN_T_S_L" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2. Сборник хранения тиомочевины. Уровень" />
+	</ct:object>
+	<ct:object name="IO_E2_B1_MO" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2. Дозатор 1. Управление (открыть)" />
+	</ct:object>
+	<ct:object name="IO_E2_B2_MO" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2. Дозатор 2. Управление (открыть)" />
+	</ct:object>
+	<ct:object name="IO_E2_B3_MO" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2. Дозатор 3. Управление (открыть)" />
+	</ct:object>
+	<ct:object name="IO_E2_B4_MO" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2. Дозатор 4. Управление (открыть)" />
+	</ct:object>
+	<ct:object name="IO_E2_B5_MO" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2. Дозатор 5. Управление (открыть)" />
+	</ct:object>
+	<ct:object name="IO_E2_B6_MO" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2. Дозатор 6. Управление (открыть)" />
+	</ct:object>
+	<ct:object name="IO_E2_B7_MO" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2. Дозатор 7. Управление (открыть)" />
+	</ct:object>
+	<ct:object name="IO_E2_B8_MO" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЭУ 2. Дозатор 8. Управление (открыть)" />
+	</ct:object>
+	<ct:object name="IO_G1_E2_ACS_Alarm" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. Шкаф АСУТП. Блок питания G1. Авария питания" />
+	</ct:object>
+	<ct:object name="IO_G2_E2_ACS_Alarm" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. Шкаф АСУТП. Блок питания G2. Авария питания" />
+	</ct:object>
+	<ct:object name="IO_G3_E2_ACS_Alarm" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. Шкаф АСУТП. Блок питания G3 (Поле). Авария питания" />
+	</ct:object>
+	<ct:object name="IO_G4_E2_ACS_Alarm" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. Шкаф АСУТП. Блок питания G4 (Поле). Авария питания" />
+	</ct:object>
+	<ct:object name="IO_KS1_E2_ACS_Open" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. Шкаф АСУТП. Дверь шкафа открыта" />
+	</ct:object>
+	<ct:object name="IO_E2_NS39_ER" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="Состояние насоса 39" />
+	</ct:object>
+	<ct:object name="IO_E2_NS55_ER" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="Состояние насоса 55" />
+	</ct:object>
+	<ct:object name="IO_E2_NS116_ER" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="Состояние насоса 116" />
+	</ct:object>
+	<ct:object name="IO_E21_S01_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-1. Серия №1 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S02_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-1. Серия №2 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S03_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-1. Серия №3 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S04_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-1. Серия №4 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S05_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-1. Серия №5 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S06_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-1. Серия №6 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S07_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-1. Серия №7 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S08_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-1. Серия №8 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S09_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-1. Серия №9 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S10_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-1. Серия №10 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S11_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-1. Серия №11 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S12_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-1. Серия №12 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S13_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-1. Серия №13 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S14_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-1. Серия №14 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S15_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-1. Серия №15 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S16_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-1. Серия №16 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S17_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-1. Серия №17 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S18_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-1. Серия №18 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S19_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-1. Серия №19 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S20_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-1. Серия №20 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S21_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-1. Серия №21 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S22_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-1. Серия №22 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S23_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-1. Серия №23 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S24_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-1. Серия №24 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S25_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №25 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S26_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №26 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S27_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №27 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S28_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №28 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S29_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №29 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S30_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №30 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S31_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №31 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S32_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №32 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S33_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №33 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S34_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №34 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S35_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №35 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S36_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №36 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S37_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №37 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S38_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №38 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S39_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №39 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S40_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №40 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S41_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №41 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S42_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №42 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S43_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №43 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S44_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №44 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S45_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №45 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S46_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №46 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S47_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №47 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S48_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №48 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S49_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №49 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S50_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №50 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S51_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №51 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S52_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №52 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S53_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №53 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S54_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №54 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S55_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №55 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S56_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №56 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S57_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №57 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S58_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №58 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S59_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №59 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E21_S60_U" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="ЦЭМ. ЭУ 2-2. Серия №60 электролизных ванн. Напряжение" />
+	</ct:object>
+	<ct:object name="IO_E2_GH2SO4_AT2_1_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-1. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_2_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-2. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_3_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-3. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_4_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-4. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_5_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-5. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_6_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-6. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_7_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-7. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_8_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-8. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_9_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-9. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_10_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-10. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_11_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-11. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_12_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-12. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_13_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-13. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_14_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-14. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_15_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-15. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_16_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-16. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_17_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-17. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_18_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-18. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_19_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-19. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_20_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-20. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_21_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-21. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_22_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-22. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_23_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-23. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_24_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-24. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_25_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-25. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_26_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-26. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_27_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-27. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_28_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-28. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_29_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-29. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_30_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-30. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_31_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-31. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_32_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-32. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_33_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-33. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_34_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-34. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_35_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-35. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_36_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-36. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_37_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-37. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_38_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-38. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_39_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-39. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_40_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-40. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_41_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-41. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_42_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-42. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_43_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-43. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_44_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-44. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_45_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-45. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_46_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-46. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_47_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-47. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_48_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-48. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_49_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-49. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_50_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-50. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_51_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-51. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_52_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-52. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_53_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-53. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_54_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-54. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_55_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-55. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_56_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-56. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_57_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-57. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_58_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-58. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_59_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-59. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_60_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-60. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_61_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-61. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_62_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-62. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_63_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-63. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_64_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-64. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_65_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-65. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_66_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-66. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_67_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-67. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_68_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-68. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_69_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-69. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_70_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-70. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_71_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-71. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_72_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-72. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_73_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-73. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_74_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-74. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_75_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-75. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_76_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-76. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_77_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-77. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_78_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-78. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_79_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-79. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_80_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-80. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_81_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-81. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_82_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-82. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_83_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-83. Концентрация паров серной кислоты, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_84_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-84. Концентрация гидроаэрозолей никеля и его солей, отм. 3,500" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_85_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-85. Концентрация паров серной кислоты, отм. 3,000" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_86_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-86. Концентрация гидроаэрозолей никеля и его солей, отм. 3,000" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_87_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-87. Концентрация паров серной кислоты, отм. 3,000" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_88_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-88. Концентрация гидроаэрозолей никеля и его солей, отм. 3,000" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_89_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-89. Концентрация паров серной кислоты, отм. 3,000" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_90_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-90. Концентрация гидроаэрозолей никеля и его солей, отм. 3,000" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_91_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-91. Концентрация паров серной кислоты, отм. 3,000" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_92_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-92. Концентрация гидроаэрозолей никеля и его солей, отм. 3,000" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_93_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-93. Концентрация паров серной кислоты, отм. 3,000" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_94_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-94. Концентрация гидроаэрозолей никеля и его солей, отм. 3,000" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_95_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-95. Концентрация паров серной кислоты, отм. 3,000" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_96_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-96. Концентрация гидроаэрозолей никеля и его солей, отм. 3,000" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_97_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-97. Концентрация паров серной кислоты, отм. 3,000" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_98_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-98. Концентрация гидроаэрозолей никеля и его солей, отм. 3,000" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_99_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-99. Концентрация паров серной кислоты, отм. 3,000" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_100_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-100. Концентрация гидроаэрозолей никеля и его солей, отм. 3,000" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_101_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-101. Концентрация паров серной кислоты, отм. 3,000" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_102_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-102. Концентрация гидроаэрозолей никеля и его солей, отм. 3,000" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_103_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-103. Концентрация паров серной кислоты, отм. 3,000" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_104_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-104. Концентрация гидроаэрозолей никеля и его солей, отм. 3,000" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_105_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-105. Концентрация паров серной кислоты, отм. 3,000" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_106_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-106. Концентрация гидроаэрозолей никеля и его солей, отм. 3,000" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_107_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-107. Концентрация паров серной кислоты, отм. 3,000" />
+	</ct:object>
+	<ct:object name="IO_E2_GNi_AT2_108_Q" uuid="" base-type="Types.Testspace.TestPLC" aspect="Aspects.PLC">
+		<attribute type="unit.System.Attributes.Description" value="АТ2-108. Концентрация гидроаэрозолей никеля и его солей, отм. 3,000" />
+	</ct:object>
+</omx>
