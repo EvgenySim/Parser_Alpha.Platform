@@ -308,17 +308,20 @@ def main():
     atr_textbox3.move(300, 100)
     atr_textbox3.resize(260,30)
 
-    atr_textbox4 = QLineEdit("Unit", frame3)
-    atr_textbox4.setAlignment(QtCore.Qt.AlignLeft)
+    atr_textbox4 = QComboBox(frame3)
+    paramlist = ["Unit", "Description"]
+    atr_textbox4.addItems(paramlist)
     atr_textbox4.setFont(QFont('Arial', 12))
     atr_textbox4.move(300, 140)
     atr_textbox4.resize(260,30)
-
+    atr_textbox4.setEditable(False)
+    atr_textbox4.setInsertPolicy(QComboBox.NoInsert)
+    
     atr_button1 = QPushButton("Генерация", frame3)
     atr_button1.move(20,220)
     atr_button1.setFont(QFont('Arial', 12))
     atr_button1.resize(220, 40)
-    atr_button1.clicked.connect(lambda: click3(atr_textbox1.text(), atr_textbox2.text(), atr_textbox3.text(), atr_textbox4.text(),logger))
+    atr_button1.clicked.connect(lambda: click3(atr_textbox1.text(), atr_textbox2.text(), atr_textbox3.text(), atr_textbox4.currentText(),logger))
 
     atr_button2 = QPushButton("Очистка ячеек", frame3)
     atr_button2.move(270,220)
@@ -327,7 +330,6 @@ def main():
     atr_button2.clicked.connect(atr_textbox1.clear)
     atr_button2.clicked.connect(atr_textbox2.clear)
     atr_button2.clicked.connect(atr_textbox3.clear)
-    atr_button2.clicked.connect(atr_textbox4.clear)
 
     atr_button3 = QPushButton("?", frame3)
     atr_button3.move(520,220)

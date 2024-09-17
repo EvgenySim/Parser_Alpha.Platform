@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 
-def attribut_create(name: str, param:str, all_object:str):
+def attribut_create(name: str, param:str, all_object:str)->None:
     
     example_object = f'\t<item id="{name}" value="{param}" />'
     all_object += example_object+"\n"
@@ -20,7 +20,14 @@ def main_create(name:str, sheet:str, name_element:str, parametr:str)->None:
 
     data = pd.read_excel(f'input\\{name}', sheet_name=sheet)
 
-    data_map = f'<omx xmlns="system" migration="29" xmlns:dp="automation.deployment">\n\t<dp:attributes-map name="{sheet}" type="Server.Attributes.{parametr}" file="{name_element}.xml" uuid="" />\n</omx>'
+    parametr_full = ""
+    if parametr == "Unit":
+        parametr_full = "Server.Attributes.Unit";
+    if parametr == "Description":
+        parametr_full = "System.Attributes.Description";
+    
+    
+    data_map = f'<omx xmlns="system" migration="29" xmlns:dp="automation.deployment">\n\t<dp:attributes-map name="{sheet}" type="{parametr_full}" file="{name_element}.xml" uuid="" />\n</omx>'
 
     with open(f'output\\Attrib.{sheet}.omx-export', "w", encoding='utf-8') as f:
         f.write(data_map)
@@ -35,6 +42,3 @@ def main_create(name:str, sheet:str, name_element:str, parametr:str)->None:
     with open(f'output\\{name_element}.xml', "w", encoding='utf-8') as f:
         f.write(data_map)
 
-
-
-#main_create("Input.xlsx","CreateAttrib","Attr","Unit")
